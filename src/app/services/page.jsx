@@ -5,10 +5,10 @@ const Services = () => {
         <div className=" h-screen bg-gradient-to-b from-[#F8F8F8] to-white justify-center" id="services">
             <div className="  pt-20 h-40">
                 <h1 className=" text-4xl font-bold flex justify-center">Our services</h1>
-                <p className=" text-2xl text-gray-500 font-light flex justify-center">Experience the full potential of our services, customized to suit your specific requirements</p>
+                <p className=" text-sm px-4 pt-4 lg:text-2xl text-gray-500 font-light flex justify-center">Experience the full potential of our services, customized to suit your specific requirements</p>
             </div>
 
-            <div className="mt-8 grid lg:grid-cols-3 gap-10 px-10">
+            <div className="mt-8 grid lg:grid-cols-3 gap-10 px-20 lg:px-10 lg:pt-24">
                 <div className="border border-[#CBCBCB] rounded-xl">
                     <div className="flex justify-center p-4 w-full h-auto ">
                         <Image

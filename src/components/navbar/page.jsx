@@ -54,6 +54,11 @@ const Navbar = () => {
                                 onClick={console.log("Work")}>
                                 <Link className="px-6 py-2" href="#work" scroll={true}>Work</Link>
                             </li>
+
+                            <li className=" rounded-md text-black hover:text-white hover:bg-[#484848] duration-200 py-2 cursor-pointer"
+                                onClick={console.log("Work")}>
+                                <Link className="px-6 py-2" href="#contact" scroll={true}>Contact</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
